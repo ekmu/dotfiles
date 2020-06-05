@@ -1,0 +1,61 @@
+{
+    /**VSCODE_SETTINGS**/
+    "editor.fontFamily": "'Fira Code Retina', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.rulers": [
+        120
+    ],
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "explorer.autoReveal": false,
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.erb": "html",
+        "*.scss": "css"
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/*.build": true,
+        "**/*.git": true,
+        "**/*.err": true,
+        "**/*.rec": true,
+        "**/*.log": true,
+        "**/*.evt": true,
+        "**/buildfre.*": true,
+        "**/buildchk.*": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        ".build/**": true,
+        "out*/**": true,
+        "i18n/**": true,
+        "extensions/**/out/**": true,
+        "*.min.js": true
+    },
+    "window.zoomLevel": -1,
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    /**EXTENSION_SETTINGS**/
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[ruby]": {
+        "editor.defaultFormatter": "castwide.solargraph"
+    },
+    "ruby.format": "rubocop",
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+    "solargraph.autoformat": true,
+    "solargraph.diagnostics": true,
+    "solargraph.formatting": true,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Night Owl",
+}

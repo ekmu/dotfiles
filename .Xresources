@@ -1,0 +1,87 @@
+!Extensions!
+URxvt.perl-ext:
+URxvt.perl-ext-common: font-size,clipboard
+
+! Xft
+Xft.antialias: true
+Xft.autohint: false
+Xft.dpi: 96
+Xft.hinting: true
+Xft.hintstyle: hintsfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+!URxvt!
+! font
+URxvt.font: xft:Ubuntu Mono:pixelsize=16:Regular
+URxvt.boldFont: xft:Ubuntu Mono:pixelsize=16:Bold
+URxvt.talicFont: xft:Ubuntu Mono:pixelsize=16:Italic
+URxvt.bolditalicFont: xft:Ubuntu Mono:pixelsize=16:Bold:Italic
+URxvt.letterSpace: -1
+URxvt.skipBuiltinGlyphs: false
+
+! general settings
+URxvt.borderLess: false
+URxvt.cursorBlink: true
+URxvt.internalBorder: 3
+URxvt.lineSpace: 0
+URxvt.loginShell: true
+URxvt.pointerBlank: true
+URxvt.saveLines: 1024
+URxvt.scrollBar: false
+URxvt.scrollstyle: rxvt
+URxvt.urgentOnBell: true
+
+! keybindings
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! copy-paste functionality
+URxvt.keysym.C-C:   perl:clipboard:copy
+URxvt.keysym.C-V:   perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+URxvt.clipboard.copycmd:  xclip -i -selection clipboard
+URxvt.clipboard.pastecmd: xclip -o -selection clipboard
+
+!Appearance!
+! Color scheme: sdras.night-owl
+! Author: sarah.drasner
+! Source: https://github.com/sdras/night-owl-vscode-theme)
+
+! special
+*.foreground:   #D6DEEB
+*.background:   #011627
+*.cursorColor:  #AAAAAA
+
+! black
+*.color0:       #011627
+*.color8:       #637777
+
+! red
+*.color1:       #FF5874
+*.color9:       #FF5874
+
+! green
+*.color2:       #ADDB67
+*.color10:      #ADDB67
+
+! yellow
+*.color3:       #F78C6C
+*.color11:      #F78C6C
+
+! blue
+*.color4:       #82AAFF
+*.color12:      #82AAFF
+
+! magenta
+*.color5:       #C792EA
+*.color13:      #C792EA
+
+! cyan
+*.color6:       #7FDBCA
+*.color14:      #7FDBCA
+
+! white
+*.color7:       #AAAAAA
+*.color15:      #EEEEEE
